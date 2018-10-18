@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4934BE6C217813A20095B17D /* PlacesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934BE6B217813A20095B17D /* PlacesListViewController.swift */; };
+		4934BE6E217815110095B17D /* PlacesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934BE6D217815110095B17D /* PlacesListTableViewCell.swift */; };
+		4934BE7021781AE10095B17D /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934BE6F21781AE10095B17D /* PlaceDetailViewController.swift */; };
 		B882D91A216E950C00249FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B882D919216E950C00249FB3 /* AppDelegate.swift */; };
-		B882D91C216E950C00249FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B882D91B216E950C00249FB3 /* ViewController.swift */; };
 		B882D91F216E950C00249FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B882D91D216E950C00249FB3 /* Main.storyboard */; };
 		B882D921216E950C00249FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B882D920216E950C00249FB3 /* Assets.xcassets */; };
 		B882D924216E950C00249FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B882D922216E950C00249FB3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4934BE6B217813A20095B17D /* PlacesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewController.swift; sourceTree = "<group>"; };
+		4934BE6D217815110095B17D /* PlacesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListTableViewCell.swift; sourceTree = "<group>"; };
+		4934BE6F21781AE10095B17D /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 		B882D916216E950C00249FB3 /* Guia Universitaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guia Universitaria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B882D919216E950C00249FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B882D91B216E950C00249FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B882D91E216E950C00249FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B882D920216E950C00249FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B882D923216E950C00249FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				B882D919216E950C00249FB3 /* AppDelegate.swift */,
-				B882D91B216E950C00249FB3 /* ViewController.swift */,
 				B882D91D216E950C00249FB3 /* Main.storyboard */,
+				4934BE6F21781AE10095B17D /* PlaceDetailViewController.swift */,
+				4934BE6D217815110095B17D /* PlacesListTableViewCell.swift */,
+				4934BE6B217813A20095B17D /* PlacesListViewController.swift */,
 				B882D920216E950C00249FB3 /* Assets.xcassets */,
 				B882D922216E950C00249FB3 /* LaunchScreen.storyboard */,
 				B882D925216E950C00249FB3 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B882D91C216E950C00249FB3 /* ViewController.swift in Sources */,
+				4934BE6C217813A20095B17D /* PlacesListViewController.swift in Sources */,
+				4934BE7021781AE10095B17D /* PlaceDetailViewController.swift in Sources */,
+				4934BE6E217815110095B17D /* PlacesListTableViewCell.swift in Sources */,
 				B882D91A216E950C00249FB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				B882D92A216E950C00249FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
